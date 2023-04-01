@@ -1,0 +1,40 @@
+/* About Start */
+.services {
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    margin-top: 50px;
+    background: #555;
+  }
+  .services .card {
+    border-radius: 10px;
+  }
+  .services .card img {
+    border-radius: 10px;
+  }
+  .services h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .services p {
+    font-weight: 500;
+  }
+  #services-btn {
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #ffa500;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  #services-btn:hover {
+    width: 170px;
+  }
+  @media (max-width: 765px) {
+    .about {
+      padding: 0;
+    }
+  }
